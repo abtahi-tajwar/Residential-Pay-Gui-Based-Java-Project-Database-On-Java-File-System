@@ -1,0 +1,30 @@
+Bill: Electricity Bill
+Payment Method: Mobile Banking: Rocket
+Bill Period: 03-2020
+Bill No: 3544
+Amount: 525.33
+________________________
+Bill: Internet Bill
+Payment Method: Card Payment: Mastercard
+Bill Period: 05-2020
+Bill No: 3545
+Amount: 699.00
+________________________
+Bill: Gas Bill
+Payment Method: Card Payment: Visa
+Bill Period: 04-2020
+Bill No: 4247
+Amount: 973.22
+________________________
+Bill: Internet Bill
+Payment Method: Card Payment: Visa
+Bill Period: MMs-YYYsY
+Bill No: BIll NO/Biller IDs
+Amount: 347.33
+________________________
+Bill: Electricity Bill
+Payment Method: Card Payment: Visa
+Bill Period: 04-2020
+Bill No: 7299
+Amount: 7242.44
+________________________
