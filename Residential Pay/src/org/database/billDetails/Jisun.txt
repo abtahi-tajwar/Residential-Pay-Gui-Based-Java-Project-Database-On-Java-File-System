@@ -16,12 +16,6 @@ Bill Period: 04-2020
 Bill No: 4247
 Amount: 973.22
 ________________________
-Bill: Internet Bill
-Payment Method: Card Payment: Visa
-Bill Period: MMs-YYYsY
-Bill No: BIll NO/Biller IDs
-Amount: 347.33
-________________________
 Bill: Electricity Bill
 Payment Method: Card Payment: Visa
 Bill Period: 04-2020
