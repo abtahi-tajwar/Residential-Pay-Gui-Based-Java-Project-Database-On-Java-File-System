@@ -17,7 +17,7 @@ Bill No: 4247
 Amount: 973.22
 ________________________
 Bill: Electricity Bill
-Payment Method: Card Payment: Visa
+Payment Method: Card Payment: Mastercard
 Bill Period: 04-2020
 Bill No: 7299
 Amount: 7242.44
