@@ -14,9 +14,6 @@ public class UserIDerror {
 
 	private JFrame frmResidentialPay;
 
-	/**
-	 * Launch the application.
-	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -30,16 +27,10 @@ public class UserIDerror {
 		});
 	}
 
-	/**
-	 * Create the application.
-	 */
 	public UserIDerror() {
 		initialize();
 	}
 
-	/**
-	 * Initialize the contents of the frame.
-	 */
 	private void initialize() {
 		frmResidentialPay = new JFrame();
 		frmResidentialPay.setTitle("Residential Pay");
