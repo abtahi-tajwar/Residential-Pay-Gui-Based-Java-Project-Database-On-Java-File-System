@@ -60,7 +60,7 @@ public class SignIn {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-		frame.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Residential Pay\\src\\org\\icon.png"));
+		frame.setIconImage(Toolkit.getDefaultToolkit().getImage(System.getProperty("user.dir")+"\\src\\org\\icon.png"));
 		frame.setTitle("Residential Pay");
 		frame.getContentPane().setBackground(Color.DARK_GRAY);
 		frame.getContentPane().setLayout(null);
@@ -103,7 +103,7 @@ public class SignIn {
 				FileWriter fw=null;
 		        FileReader fr = null;
 		        BufferedReader br = null;
-		        File f = new File("C:\\Residential Pay\\src\\org\\database\\registration.txt");
+		        File f = new File(System.getProperty("user.dir")+"src\\org\\database\\registration.txt");
 		        try{
 		            fr = new FileReader(f);
 		            br = new BufferedReader(fr);
@@ -165,13 +165,13 @@ public class SignIn {
 		frame.getContentPane().add(button_1);
 		
 		JLabel usericon = new JLabel("");
-		usericon.setIcon(new ImageIcon("C:\\Residential Pay\\src\\org\\uidicon.png"));
+		usericon.setIcon(new ImageIcon(System.getProperty("user.dir")+"\\src\\org\\uidicon.png"));
 		usericon.setHorizontalAlignment(SwingConstants.CENTER);
 		usericon.setBounds(178, 140, 40, 40);
 		frame.getContentPane().add(usericon);
 		
 		JLabel label_3 = new JLabel("");
-		label_3.setIcon(new ImageIcon("C:\\Residential Pay\\src\\org\\passicon.png"));
+		label_3.setIcon(new ImageIcon(System.getProperty("user.dir")+"\\src\\org\\passicon.png"));
 		label_3.setHorizontalAlignment(SwingConstants.CENTER);
 		label_3.setBounds(178, 231, 40, 40);
 		frame.getContentPane().add(label_3);
@@ -182,7 +182,7 @@ public class SignIn {
 				About.main(null);
 			}
 		});
-		button_2.setIcon(new ImageIcon("C:\\Residential Pay\\src\\org\\1200px-Info_icon_002.svg[1].png"));
+		button_2.setIcon(new ImageIcon(System.getProperty("user.dir")+"\\src\\org\\1200px-Info_icon_002.svg[1].png"));
 		button_2.setBounds(654, 439, 50, 45);
 		frame.getContentPane().add(button_2);
 		frame.setResizable(false);
